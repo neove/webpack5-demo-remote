@@ -1,0 +1,29 @@
+{
+  "name": "webpack5-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "rm -rf ./dist/ && webpack --mode=development",
+    "build-prod": "rm -rf ./dist/ &&  webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neove/webpack5-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "5.0.0-beta.24",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-cli": "^3.3.12",
+    "html-webpack-plugin": "^4.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/neove/webpack5-demo/issues"
+  },
+  "homepage": "https://github.com/neove/webpack5-demo#readme"
+}
